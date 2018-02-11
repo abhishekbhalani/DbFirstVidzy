@@ -1,4 +1,4 @@
-﻿// T4 code generation is enabled for model 'C:\Users\Thomas\source\repos\DbFirst Exercise Vidzy\DbFirst Exercise Vidzy\Vidzy.edmx'. 
+﻿// T4 code generation is enabled for model 'C:\Users\Thomas\Documents\Repo\Entity Framework\DbFirst Exercise Vidzy\DbFirst Exercise Vidzy\Vidzy.edmx'. 
 // To enable legacy code generation, change the value of the 'Code Generation Strategy' designer
 // property to 'Legacy ObjectContext'. This property is available in the Properties Window when the model
 // is open in the designer.
