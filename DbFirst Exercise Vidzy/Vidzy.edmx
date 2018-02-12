@@ -69,7 +69,7 @@
           <Property Name="ReleaseDate" Type="DateTime" Nullable="false" Precision="3" />
           <Property Name="GenreId" Type="Byte" Nullable="false" />
           <NavigationProperty Name="Genre" Relationship="VidzyModel.FK_Videos_Genres" FromRole="Video" ToRole="Genre" />
-          <Property Name="Classification" Type="Byte" Nullable="false" />
+          <Property Name="Classification" Type="VidzyModel.Classification" Nullable="false" />
         </EntityType>
         <EntityContainer Name="VidzyDbContext" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="Genres" EntityType="Self.Genre" />
@@ -97,6 +97,7 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
+        <EnumType Name="Classification" UnderlyingType="Byte" a:ExternalTypeName="DbFirst_Exercise_Vidzy.Classification" xmlns:a="http://schemas.microsoft.com/ado/2006/04/codegeneration" />
       </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
